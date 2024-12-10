@@ -1,4 +1,4 @@
-# Broken Password Checker
+# Project. Broken Password Checker
 
 Ціль проєкту є перевірка списоку паролів на наявність у базі зламаних паролів за допомогою ресурсу [Have I Been Pwned API](https://haveibeenpwned.com).
 
