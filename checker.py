@@ -90,7 +90,7 @@ def process_passwords(input_file, output_file):
     logging.info(f"Результати збережено у {output_file}")
 
 def main():
-    """Головна функція запуску скрипта."""
+    """Запуск скрипта"""
     logging.info("Початок роботи скрипта")
     input_file = "passwords.txt"  # Вхідний файл
     output_file = "results.txt"  # Результат
