@@ -9,7 +9,7 @@
 
 ## Структура проєкту
 ```
-broken-password-checker/
+python-project/
 ├── checker.py          # Основний код
 ├── passwords.txt       # Вхідний файл зі списком паролів
 ├── results.txt         # Результати перевірки
