@@ -11,5 +11,5 @@
 
 1. **Клонувати репозиторій:**
    ```bash
-   git clone https://github.com/yourusername/broken-password-checker.git
-   cd broken-password-checker
+   git clone https://github.com/a-sheiko/python-project.git
+   cd python-project
