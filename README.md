@@ -50,13 +50,4 @@ admin123: Compromised (233,673 times)
 securepassword: Safe
 ```
 
-## Dependencies
-- Python 3.8+
-- requests==2.28.2
-
-## Notes
-- Passwords are not fully transmitted to the API thanks to the **K-Anonymity** method.
-- If the API is unavailable, the script will output an error during execution.
-
-For additional information about the API functionality, refer to the [HIBP API documentation](https://haveibeenpwned.com/API/v3).
 
