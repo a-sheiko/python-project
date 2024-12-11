@@ -1,7 +1,7 @@
 # Project: Broken Password Checker
 
 ## Description
-This project is designed to check a list of passwords against a database of compromised passwords using the [Have I Been Pwned API](https://haveibeenpwned.com)
+This project is designed to check a list of passwords against a database of compromised passwords using the https://haveibeenpwned.com
 
 ## Features
 - Automatic hashing of passwords using SHA-1
