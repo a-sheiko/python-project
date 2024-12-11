@@ -28,7 +28,7 @@ def check_password_in_pwned(hash_prefix):
         logging.error(f"API access error: {e}")
         raise RuntimeError("Failed to make API request") from e
 
-    logging.info(Query successful")
+    logging.info("Query successful")
     return response.text
 
 def is_password_pwned(password):
@@ -93,7 +93,7 @@ def main():
     #Main script entry point
     logging.info("Script started")
     input_file = "passwords.txt"  # Input file
-    output_file = "results.txt"  # Output file
+    output_file = "results.txt"  # Output file with result
     process_passwords(input_file, output_file)
     logging.info("Script finished")
 
