@@ -44,10 +44,10 @@ The results will be saved in the `results.txt` file.
 
 ## Results 
 ```
-123: Compromised (1,784,154 times)
-admin: Compromised (1,786,431 times)
-admin123: Compromised (233,673 times)
-securepassword: Safe
+123: Compromised (1784154 times)
+admin: Compromised (1786431 times)
+admin123: Compromised (233673 times)
+637e6b91ac36fb22d0f08d3401da91b3: Safe
 ```
 
 
