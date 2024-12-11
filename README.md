@@ -1,63 +1,62 @@
 # Project: Broken Password Checker
 
-## Опис
-Цей проєкт призначений для перевірки списку паролів на наявність у базі зламаних паролів за допомогою ресурсу [Have I Been Pwned API](https://haveibeenpwned.com).
+## Description
+This project is designed to check a list of passwords against a database of compromised passwords using the [Have I Been Pwned API](https://haveibeenpwned.com).
 
-## Можливості
-- Автоматичне хешування паролів за допомогою SHA-1.
-- Перевірка кожного пароля через API.
-- Генерація звіту з результатами перевірки.
+## Features
+- Automatic hashing of passwords using SHA-1.
+- Checking each password through the API.
+- Generating a report with the results of the check.
 
-## Структура проєкту
+## Project Structure
 ```
 python-project/
-├── checker.py          # Основний код
-├── passwords.txt       # Вхідний файл зі списком паролів
-├── results.txt         # Результати перевірки
-├── requirements.txt    # Залежності для Python
-├── README.md           # Документація для користувача
+├── checker.py          # Main code
+├── passwords.txt       # Input file with a list of passwords
+├── results.txt         # Check results
+├── requirements.txt    # Python dependencies
+├── README.md           # User documentation
 ```
 
-## Як встановити
+## How to Install
 
-1. Клонувати репозиторій:
+1. Clone the repository:
    ```bash
    git clone https://github.com/a-sheiko/python-project.git
    cd python-project
    ```
 
-2. Встановити залежності:
+2. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Додати паролі у файл `passwords.txt`. Кожен пароль — на новому рядку.
+3. Add passwords to the `passwords.txt` file. Each password should be on a new line.
 
-## Як запустити
+## How to Run
 
-Запустіть скрипт:
+Run the script:
 ```bash
 python checker.py
 ```
 
-Результати будуть збережені у файлі `results.txt`.
+The results will be saved in the `results.txt` file.
 
-## Формат результатів
+## Results Format
 ```
-123: Зламаний (1784154 разів)
-admin: Зламаний (1786431 разів)
-admin123: Зламаний (233673 разів)
-637e6b91ac36fb22d0f08d3401da91b3: Безпечний
+123: Compromised (1,784,154 times)
+admin: Compromised (1,786,431 times)
+admin123: Compromised (233,673 times)
+securepassword: Safe
 ```
 
-## Залежності
+## Dependencies
 - Python 3.8+
 - requests==2.28.2
 
-## Примітки
-- Паролі не передаються повністю в API завдяки використанню методу **K-Anonymity**.
-- Якщо API недоступне, скрипт виведе помилку під час виконання.
+## Notes
+- Passwords are not fully transmitted to the API thanks to the **K-Anonymity** method.
+- If the API is unavailable, the script will output an error during execution.
 
-Для додаткової інформації про роботу API ознайомтеся з [документацією HIBP API](https://haveibeenpwned.com/API/v3).
-
+For additional information about the API functionality, refer to the [HIBP API documentation](https://haveibeenpwned.com/API/v3).
 
