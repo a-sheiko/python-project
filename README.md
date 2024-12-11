@@ -11,11 +11,11 @@ This project is designed to check a list of passwords against a database of comp
 ## Project Structure
 ```
 python-project/
-├── checker.py          # Main code
-├── passwords.txt       # Input file with a list of passwords
-├── results.txt         # Check results
-├── requirements.txt    # Python dependencies
-├── README.md           # User documentation
+- checker.py          # Main code
+- passwords.txt       # Input file with a list of passwords
+- results.txt         # Check results
+- requirements.txt    # Python dependencies
+- README.md           # User documentation
 ```
 
 ## How to Install
